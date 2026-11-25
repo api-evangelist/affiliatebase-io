@@ -66,7 +66,7 @@
 
 AffiliateBase provides a modern SaaS affiliate marketing platform that integrates tightly with Stripe to track referrals, calculate recurring commissions, and automate payouts via Stripe, PayPal, or Wise. Businesses can create custom affiliate portals, manage affiliates, view real-time analytics, and access a robust REST API and webhooks for deeper integration. The service emphasizes ease of use, transparent reporting, and flexible commission structures for subscription-based companies.
 
-**Areas:** SaaS · AffiliateMarketing · Stripe · Payments · MarketingAutomation
+**Areas:** Software-as-a-Service · Affiliate Marketing · Stripe · Payments · Marketing Automation
 
 ## AffiliateBase on APIs.io
 
@@ -90,21 +90,38 @@ Everything profiled for AffiliateBase is published on APIs.io rather than in thi
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Affiliatebase Io Webhooks](https://apis.io/asyncapis/affiliatebase-io/affiliatebase-io-webhooks/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Affiliatebase Io Agentic Access](https://apis.io/agentic-access/affiliatebase-io/affiliatebase-io-agentic-access/)
+- [AffiliateBase Agentic Access](https://apis.io/agentic-access/affiliatebase-io/affiliatebase-io-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (17)
 
 The data models the API reads and writes.
 
 - [Affiliate](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-affiliate/)
 - [AffiliatePromoCode](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-affiliate-promo-code/)
+- [ApiKey](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-api-key/)
 - [CampaignWrite](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-campaign-write/)
+- [Commission](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-commission/)
 - [Coupon](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-coupon/)
 - [Invitation](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-invitation/)
+- [JsonObject](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-json-object/)
+- [Link](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-link/)
+- [PaginatedApiKeys](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-paginated-api-keys/)
+- [PaginatedCommissions](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-paginated-commissions/)
+- [PaginatedLinks](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-paginated-links/)
+- [PaginatedPayouts](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-paginated-payouts/)
+- [Payout](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-payout/)
+- [PayoutExport](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-payout-export/)
+- [PayoutRun](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-payout-run/)
 - [Referral](https://apis.io/schemas/affiliatebase-io/affiliatebase-io-referral/)
 
 #### JSON-LD (1)
@@ -123,27 +140,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Affiliatebase Io Authentication](https://apis.io/security/affiliatebase-io/affiliatebase-io-authentication/)
-- [Affiliatebase Io Domain Security](https://apis.io/security/affiliatebase-io/affiliatebase-io-domain-security/)
-- [Affiliatebase Io Vulnerability Disclosure](https://apis.io/security/affiliatebase-io/affiliatebase-io-vulnerability-disclosure/)
+- [AffiliateBase Authentication](https://apis.io/security/affiliatebase-io/affiliatebase-io-authentication/)
+- [AffiliateBase Domain Security](https://apis.io/security/affiliatebase-io/affiliatebase-io-domain-security/)
+- [AffiliateBase Vulnerability Disclosure](https://apis.io/security/affiliatebase-io/affiliatebase-io-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Affiliatebase Io Scopes](https://apis.io/scopes/affiliatebase-io/affiliatebase-io-scopes/)
+- [AffiliateBase Scopes](https://apis.io/scopes/affiliatebase-io/affiliatebase-io-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Affiliatebase Io Plans Pricing](https://apis.io/plans/affiliatebase-io/affiliatebase-io-plans-pricing/)
+- [AffiliateBase Plans Pricing](https://apis.io/plans/affiliatebase-io/affiliatebase-io-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Affiliatebase Io Rate Limits](https://apis.io/rate-limits/affiliatebase-io/affiliatebase-io-rate-limits/)
+- [AffiliateBase Rate Limits](https://apis.io/rate-limits/affiliatebase-io/affiliatebase-io-rate-limits/)
 
 ## Where to find this API
 
@@ -162,32 +179,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 58.5** — strong · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 58.2** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 56.7 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.7 |
-| Developer ergonomics | 61.2 |
-| Access clarity | 44.7 |
+| Discoverability | 83.9 |
+| Contract quality | 66.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 33.3 |
+| Developer ergonomics | 56.5 |
+| Access clarity | 51.1 |
 
-**Agent readiness 68.9** — agent-native
+**Agent readiness 62.2** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
-| Event Surface Described | — |
-| Agent Skills | unknown |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -199,6 +216,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 36.6** — Payments
 
